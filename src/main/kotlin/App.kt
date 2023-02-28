@@ -1,3 +1,7 @@
+import infrastructure.api.ApiRouter
+import infrastructure.provider.Provider
+import infrastructure.provider.ProviderImpl
+
 /*
  * Copyright (c) 2023. Smart Operating Block
  *
@@ -7,8 +11,9 @@
  */
 
 /**
- * Template for kotlin projects.
+ * The Application launcher.
  */
 fun main() {
-    println("Hello World from Kotlin Template")
+    val provider: Provider = ProviderImpl()
+    ApiRouter(provider.patientDatabaseManager).start()
 }
