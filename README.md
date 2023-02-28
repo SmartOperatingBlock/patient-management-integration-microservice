@@ -6,5 +6,5 @@
 
 The integration microservice responsible to manage patients inside the Operating Block.
 
-- Check the latest REST API [here](https://smartoperatingblock.github.io/patient-management-integration-microservice/openapi-doc).
-- Check the code documentation [here](https://smartoperatingblock.github.io/patient-management-integration-microservice/code-doc).
+- Check the latest REST API [here](https://smartoperatingblock.github.io/patient-management-integration-microservice/documentation/code-doc/).
+- Check the code documentation [here](https://smartoperatingblock.github.io/patient-management-integration-microservice/documentation/code-doc/).
