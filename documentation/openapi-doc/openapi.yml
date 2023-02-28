@@ -1,0 +1,126 @@
+openapi: 3.0.0
+servers:
+  - description: Patient Management Integration microservice
+    url: http://localhost:<port>/api
+info:
+  description: This is the API of the Patient Management Integration microservice within the Smart Operating Block project.
+  version: "1.0.0"
+  title: Patient Management Integration API
+  contact:
+    email: info@smartoperatingblock.com
+  license:
+    name: MIT License
+    url: 'https://opensource.org/license/mit/'
+
+tags:
+  - name: Patient API
+    description: This is the available API to manage and obtain information about patients within the Operating Block.
+paths:
+
+  /api/patients/{taxCode}:
+    get:
+      tags:
+        - Patient API
+      summary: Get the patient information by its tax code
+      operationId: getPatient
+      description: Get patient information
+      parameters:
+        - in: path
+          name: taxCode
+          description: the patient tax code
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Patient'
+        '404':
+          description: Patient not found
+        '500':
+          description: server error occurred
+
+    delete:
+      tags:
+        - Patient API
+      summary: Delete a patient by its tax code
+      parameters:
+        - name: taxCode
+          in: path
+          description: The tax code of the patient to delete
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Patient deleted
+        '404':
+          description: Patient not found
+
+  /api/users/:
+    post:
+      tags:
+        - Patient API
+      summary: Add a new patient
+      requestBody:
+        description: Patient object to add
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Patient'
+      responses:
+        '201':
+          description: Patient added
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Patient'
+
+components:
+  schemas:
+    Patient:
+      type: object
+      properties:
+        taxCode:
+          type: string
+          example: 12345678
+        name:
+          type: string
+          example: Jhon
+        surname:
+          type: string
+          example: Doe
+        height:
+          type: number
+          example: 180.0
+        weight:
+          type: number
+          example: 90.0
+        birthdate:
+          type: string
+          example: 1960-12-03
+        bloodGroup:
+          $ref: '#/components/schemas/BloodGroup'
+      required:
+        - taxCode
+        - name
+        - surname
+        - height
+        - weight
+        - birthdate
+        - bloodGroup
+
+    BloodGroup:
+      type: string
+      enum: [ A_NEGATIVE,
+              A_POSITIVE,
+              B_NEGATIVE,
+              B_POSITIVE,
+              ZERO_NEGATIVE,
+              ZERO_POSITIVE,
+              AB_NEGATIVE,
+              AB_POSITIVE ]
