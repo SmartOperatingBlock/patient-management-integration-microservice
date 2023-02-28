@@ -1,3 +1,72 @@
+## 1.0.0 (2023-02-28)
+
+
+### Features
+
+* add patient api ([8cfd0d3](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/8cfd0d3e83a7973d43966be90daf67c0476963be))
+* create application service interface ([3725b09](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3725b09c611d69ceee3ff9bfbabd531222780a64))
+* create data for patient entity ([d6ebd8f](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d6ebd8f90df55f138db3d13ce9d702b81edeaa9f))
+* create patient application services ([f631250](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f6312509f95040964dcab8d0c8f5e037be01be4b))
+* create patient database manager ([d9ffe0e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d9ffe0e00c98fff88b0e65ded0c49a29d81da9f9))
+* create patient entity ([617eeab](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/617eeab5607430844764cb963097b85f39c8d57e))
+* create patient repository interface ([56b4f38](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/56b4f386a77cdd33f7e5ff3b5d1994bfd8c3d60d))
+* create provider interface ([119a686](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/119a68616a150659425ebd0ca2a12dc665faa881))
+
+
+### Bug Fixes
+
+* change method to check if record is inserted due to kmongo bug on typed collection ([435d393](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/435d393392005734d7e2c0d7308a7557557b13dd))
+
+
+### Dependency updates
+
+* **deps:** add archunit lib ([d0f1959](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d0f1959081ad13ae96c81e5b04aea9d746694a75))
+* **deps:** add kmongo and logback deps ([abee96f](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/abee96f60e9cee83b0ca2d62a00e222915624331))
+* **deps:** add ktor deps ([fba793d](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/fba793dc75534b3862c6c1fedae28d903198294b))
+
+
+### Tests
+
+* **architecture:** create test for clean architecture ([a8bb7b8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/a8bb7b817a6290aa709548626f3304d6122b2934))
+* **entity:** add test for patient entity ([5db5caa](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5db5caa6d353c717ff70efad7dec7ebe1e27ded7))
+* **service:** add test for patient application services ([e4ef293](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/e4ef2932768f0c615a0890a2ad65dc4d8a9a0e68))
+
+
+### Refactoring
+
+* move test class in entity package ([f82c3f4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f82c3f4ecf09b63ed6ce94296a13bf0aefd1a508))
+* refactor api methods ([836d93c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/836d93cf267e6756b820bfa4df3ed99d45510c69))
+
+
+### Documentation
+
+* **api:** add rest api specs ([39b3fcc](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/39b3fcc91b31950f447ece8db23a0ebd32bd10e5))
+
+
+### Build and continuous integration
+
+* add input to generate also rest api documentation ([c3aaf71](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/c3aaf714f0d07cfe9a914834cfd436735b883a29))
+
+
+### General maintenance
+
+* add application launcher ([44bc022](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/44bc022d1fefced7aec997ff6f9bf09030cceae7))
+* add equals and hashcode to entities ([7107b98](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7107b987de65efe266c1ed20816455cbeb317032))
+* add serializable annotations on entities ([7ee2bc7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7ee2bc7f8f89abb7872a3d001321caa0e4b65e15))
+* change database name ([14dd152](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/14dd152468b0579fad155a014607e00bd0809327))
+* change project name ([e717075](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/e7170758655618846fe57005a1703422002aad75))
+* create api router with ktor ([4096e9e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4096e9e7344b884d69f0fc7fbca4e506f1a74ffd))
+* create mock db manager to test application service ([4c9c914](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4c9c914a480c9c8bac674d5e8a72720484e53f4d))
+* create mongo client and implement db operations ([cfd3187](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/cfd318769e08e667b32ed64be4b6bf20a0969374))
+* create patient api dto ([c6d53cd](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/c6d53cd55e6cf0e93e3e421da7a802dc777d0c06))
+* delete sample test class ([28fe7a1](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/28fe7a1f8544c5cbd13cd499dfb18f935afa2bb7))
+* implement patient controller ([8587c4b](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/8587c4b3f8a3cc0899e6acff9641a43c67f3c486))
+* implement provider interface ([f9689f7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f9689f77a819c2a1a9dfd04d8ff490ab52124102))
+* modify project name ([fe5b3a1](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/fe5b3a1d94749a109029ea11626a932e7952f3be))
+* update Dockerfile with run task ([ad09eb8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ad09eb8aaaa46b2d05ef9a30058c20988b303757))
+* update README ([b3c0342](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/b3c03427c6a204fe6f374485bf654fb6c7c91186))
+* update README ([ea3340d](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ea3340d45510da67905616c1cf439faba4522f2f))
+
 ## [0.1.1](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.0...0.1.1) (2023-02-06)
 
 
