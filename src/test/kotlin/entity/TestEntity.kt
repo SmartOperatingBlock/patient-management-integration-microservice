@@ -1,5 +1,13 @@
-import entity.Patient
-import entity.PatientData
+/*
+ * Copyright (c) 2023. Smart Operating Block
+ *
+ * Use of this source code is governed by an MIT-style
+ * license that can be found in the LICENSE file or at
+ * https://opensource.org/licenses/MIT.
+ */
+
+package entity
+
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldNotBe
