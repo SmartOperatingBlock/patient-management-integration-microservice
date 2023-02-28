@@ -36,7 +36,7 @@ class MongoClient(
 
     override fun insertPatient(patient: Patient): Boolean =
         patientsCollection.insertOne(patient).run {
-            this.insertedId != null
+            getPatient(patient.taxCode) != null
         }
 
     override fun deletePatient(taxCode: PatientData.TaxCode): Boolean =
