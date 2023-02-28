@@ -21,12 +21,14 @@ repositories {
 }
 
 dependencies {
+    implementation(libs.kmongo)
     implementation(libs.kotlin.stdlib)
     implementation(libs.ktor.server.core)
     implementation(libs.ktor.server.netty)
     implementation(libs.ktor.server.swagger)
     implementation(libs.ktor.content.negotiation)
     implementation(libs.ktor.serialization)
+    implementation(libs.logback)
     testImplementation(libs.bundles.kotlin.testing)
 }
 
