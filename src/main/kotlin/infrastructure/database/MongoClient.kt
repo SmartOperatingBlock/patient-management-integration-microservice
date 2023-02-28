@@ -47,6 +47,6 @@ class MongoClient(
 
     companion object {
         /** The name of the database. */
-        const val databaseName = "user_management"
+        const val databaseName = "patient_management"
     }
 }
