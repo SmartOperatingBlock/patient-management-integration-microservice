@@ -12,10 +12,12 @@ import entity.PatientData.BloodGroup
 import entity.PatientData.Height
 import entity.PatientData.TaxCode
 import entity.PatientData.Weight
+import kotlinx.serialization.Serializable
 
 /**
  * The patient model.
  */
+@Serializable
 data class Patient(
 
     /** The [taxCode] of the patient. */
