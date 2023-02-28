@@ -31,36 +31,39 @@ import io.ktor.server.routing.post
 fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
 
     get("/api/patients/{taxCode}") {
-        call.respond {
-            GetPatient(
-                TaxCode(call.parameters["taxCode"].orEmpty()),
-                PatientController(patientDatabaseManager)
-            ).execute().let { patient ->
-                patient?.toPatientApiDto() ?: HttpStatusCode.NotFound
-            }
+        GetPatient(
+            TaxCode(call.parameters["taxCode"].orEmpty()),
+            PatientController(patientDatabaseManager)
+        ).execute().apply {
+            if (this != null)
+                call.respond(HttpStatusCode.OK, this.toPatientApiDto())
+            else
+                call.respond(HttpStatusCode.NotFound)
         }
     }
 
     delete("/api/patients/{taxCode}") {
-        call.respond {
-            DeletePatient(
-                TaxCode(call.parameters["taxCode"].orEmpty()),
-                PatientController(patientDatabaseManager)
-            ).execute().let { result ->
-                if (result) HttpStatusCode.NoContent else HttpStatusCode.NoContent
-            }
+        DeletePatient(
+            TaxCode(call.parameters["taxCode"].orEmpty()),
+            PatientController(patientDatabaseManager)
+        ).execute().let { result ->
+            if (result)
+                call.respond(HttpStatusCode.NoContent)
+            else
+                call.respond(HttpStatusCode.NoContent)
         }
     }
 
     post("api/patients") {
         val patient: Patient = call.receive<PatientApiDto>().toPatient()
-        call.respond {
-            CreatePatient(
-                patient,
-                PatientController(patientDatabaseManager)
-            ).execute().let { result ->
-                if (result) HttpStatusCode.Created else HttpStatusCode.Conflict
-            }
+        CreatePatient(
+            patient,
+            PatientController(patientDatabaseManager)
+        ).execute().let { result ->
+            if (result)
+                call.respond(HttpStatusCode.Created)
+            else
+                call.respond(HttpStatusCode.Conflict)
         }
     }
 }
