@@ -14,7 +14,16 @@ package entity
 object PatientData {
 
     /** The identifier of the patient given its [code]. */
-    data class TaxCode(val code: String)
+    data class TaxCode(val code: String) {
+
+        override fun equals(other: Any?): Boolean = when {
+            other === this -> true
+            other is TaxCode -> this.code == other.code
+            else -> false
+        }
+
+        override fun hashCode(): Int = this.code.hashCode()
+    }
 
     /** The [value] of [Height] of the patient given its measure [unit]. */
     data class Height(val value: Double, val unit: LengthUnit)

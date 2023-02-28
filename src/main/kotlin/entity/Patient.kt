@@ -44,4 +44,12 @@ data class Patient(
             "Invalid Patient: provide a valid TaxCode!"
         }
     }
+
+    override fun equals(other: Any?): Boolean = when {
+        other === this -> true
+        other is Patient -> this.taxCode == other.taxCode
+        else -> false
+    }
+
+    override fun hashCode(): Int = taxCode.hashCode()
 }
