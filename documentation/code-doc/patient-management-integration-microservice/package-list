@@ -1,0 +1,131 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/patient-management-integration-microservice/[root]/index.html
+$dokka.location://main/#/PointingToDeclaration/patient-management-integration-microservice/[root]/main.html
+$dokka.location:application.controller.manager////PointingToDeclaration/patient-management-integration-microservice/application.controller.manager/index.html
+$dokka.location:application.controller.manager/PatientDatabaseManager///PointingToDeclaration/patient-management-integration-microservice/application.controller.manager/-patient-database-manager/index.html
+$dokka.location:application.controller.manager/PatientDatabaseManager/deletePatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/application.controller.manager/-patient-database-manager/delete-patient.html
+$dokka.location:application.controller.manager/PatientDatabaseManager/getPatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/application.controller.manager/-patient-database-manager/get-patient.html
+$dokka.location:application.controller.manager/PatientDatabaseManager/insertPatient/#entity.Patient/PointingToDeclaration/patient-management-integration-microservice/application.controller.manager/-patient-database-manager/insert-patient.html
+$dokka.location:application.controller////PointingToDeclaration/patient-management-integration-microservice/application.controller/index.html
+$dokka.location:application.controller/PatientController///PointingToDeclaration/patient-management-integration-microservice/application.controller/-patient-controller/index.html
+$dokka.location:application.controller/PatientController/PatientController/#application.controller.manager.PatientDatabaseManager/PointingToDeclaration/patient-management-integration-microservice/application.controller/-patient-controller/-patient-controller.html
+$dokka.location:application.controller/PatientController/createPatient/#entity.Patient/PointingToDeclaration/patient-management-integration-microservice/application.controller/-patient-controller/create-patient.html
+$dokka.location:application.controller/PatientController/deletePatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/application.controller/-patient-controller/delete-patient.html
+$dokka.location:application.controller/PatientController/getPatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/application.controller/-patient-controller/get-patient.html
+$dokka.location:application.presenter.api.model////PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/index.html
+$dokka.location:application.presenter.api.model//toPatient/application.presenter.api.model.PatientApiDto#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/to-patient.html
+$dokka.location:application.presenter.api.model//toPatientApiDto/entity.Patient#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/to-patient-api-dto.html
+$dokka.location:application.presenter.api.model/PatientApiDto///PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/index.html
+$dokka.location:application.presenter.api.model/PatientApiDto/PatientApiDto/#kotlin.String#kotlin.String#kotlin.String#kotlin.Double#kotlin.Double#kotlin.String#entity.PatientData.BloodGroup/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/-patient-api-dto.html
+$dokka.location:application.presenter.api.model/PatientApiDto/birthdate/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/birthdate.html
+$dokka.location:application.presenter.api.model/PatientApiDto/bloodGroup/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/blood-group.html
+$dokka.location:application.presenter.api.model/PatientApiDto/height/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/height.html
+$dokka.location:application.presenter.api.model/PatientApiDto/name/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/name.html
+$dokka.location:application.presenter.api.model/PatientApiDto/surname/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/surname.html
+$dokka.location:application.presenter.api.model/PatientApiDto/taxCode/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/tax-code.html
+$dokka.location:application.presenter.api.model/PatientApiDto/weight/#/PointingToDeclaration/patient-management-integration-microservice/application.presenter.api.model/-patient-api-dto/weight.html
+$dokka.location:application.service////PointingToDeclaration/patient-management-integration-microservice/application.service/index.html
+$dokka.location:application.service/ApplicationService///PointingToDeclaration/patient-management-integration-microservice/application.service/-application-service/index.html
+$dokka.location:application.service/ApplicationService/execute/#/PointingToDeclaration/patient-management-integration-microservice/application.service/-application-service/execute.html
+$dokka.location:application.service/PatientServices.CreatePatient///PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-create-patient/index.html
+$dokka.location:application.service/PatientServices.CreatePatient/CreatePatient/#entity.Patient#usecase.repository.PatientRepository/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-create-patient/-create-patient.html
+$dokka.location:application.service/PatientServices.CreatePatient/execute/#/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-create-patient/execute.html
+$dokka.location:application.service/PatientServices.DeletePatient///PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-delete-patient/index.html
+$dokka.location:application.service/PatientServices.DeletePatient/DeletePatient/#entity.PatientData.TaxCode#usecase.repository.PatientRepository/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-delete-patient/-delete-patient.html
+$dokka.location:application.service/PatientServices.DeletePatient/execute/#/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-delete-patient/execute.html
+$dokka.location:application.service/PatientServices.GetPatient///PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-get-patient/index.html
+$dokka.location:application.service/PatientServices.GetPatient/GetPatient/#entity.PatientData.TaxCode#usecase.repository.PatientRepository/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-get-patient/-get-patient.html
+$dokka.location:application.service/PatientServices.GetPatient/execute/#/PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/-get-patient/execute.html
+$dokka.location:application.service/PatientServices///PointingToDeclaration/patient-management-integration-microservice/application.service/-patient-services/index.html
+$dokka.location:entity////PointingToDeclaration/patient-management-integration-microservice/entity/index.html
+$dokka.location:entity/Patient///PointingToDeclaration/patient-management-integration-microservice/entity/-patient/index.html
+$dokka.location:entity/Patient/Patient/#entity.PatientData.TaxCode#kotlin.String#kotlin.String#kotlin.String#entity.PatientData.Height#entity.PatientData.Weight#entity.PatientData.BloodGroup/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/-patient.html
+$dokka.location:entity/Patient/birthdate/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/birthdate.html
+$dokka.location:entity/Patient/bloodGroup/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/blood-group.html
+$dokka.location:entity/Patient/equals/#kotlin.Any?/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/equals.html
+$dokka.location:entity/Patient/hashCode/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/hash-code.html
+$dokka.location:entity/Patient/height/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/height.html
+$dokka.location:entity/Patient/name/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/name.html
+$dokka.location:entity/Patient/surname/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/surname.html
+$dokka.location:entity/Patient/taxCode/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/tax-code.html
+$dokka.location:entity/Patient/weight/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient/weight.html
+$dokka.location:entity/PatientData.BloodGroup.AB_NEGATIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-a-b_-n-e-g-a-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.AB_POSITIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-a-b_-p-o-s-i-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.A_NEGATIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-a_-n-e-g-a-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.A_POSITIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-a_-p-o-s-i-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.B_NEGATIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-b_-n-e-g-a-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.B_POSITIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-b_-p-o-s-i-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.ZERO_NEGATIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-z-e-r-o_-n-e-g-a-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup.ZERO_POSITIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-z-e-r-o_-p-o-s-i-t-i-v-e/index.html
+$dokka.location:entity/PatientData.BloodGroup///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/index.html
+$dokka.location:entity/PatientData.BloodGroup/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/value-of.html
+$dokka.location:entity/PatientData.BloodGroup/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/values.html
+$dokka.location:entity/PatientData.Gender.FEMALE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-gender/-f-e-m-a-l-e/index.html
+$dokka.location:entity/PatientData.Gender.MALE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-gender/-m-a-l-e/index.html
+$dokka.location:entity/PatientData.Gender///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/index.html
+$dokka.location:entity/PatientData.Gender/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/value-of.html
+$dokka.location:entity/PatientData.Gender/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/values.html
+$dokka.location:entity/PatientData.Height///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-height/index.html
+$dokka.location:entity/PatientData.Height/Height/#kotlin.Double#entity.PatientData.LengthUnit/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-height/-height.html
+$dokka.location:entity/PatientData.Height/unit/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-height/unit.html
+$dokka.location:entity/PatientData.Height/value/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-height/value.html
+$dokka.location:entity/PatientData.LengthUnit.CENTIMETER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-length-unit/-c-e-n-t-i-m-e-t-e-r/index.html
+$dokka.location:entity/PatientData.LengthUnit.METER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-length-unit/-m-e-t-e-r/index.html
+$dokka.location:entity/PatientData.LengthUnit///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/index.html
+$dokka.location:entity/PatientData.LengthUnit/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/value-of.html
+$dokka.location:entity/PatientData.LengthUnit/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/values.html
+$dokka.location:entity/PatientData.MassUnit.GRAM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-mass-unit/-g-r-a-m/index.html
+$dokka.location:entity/PatientData.MassUnit.KILOGRAM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-mass-unit/-k-i-l-o-g-r-a-m/index.html
+$dokka.location:entity/PatientData.MassUnit///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/index.html
+$dokka.location:entity/PatientData.MassUnit/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/value-of.html
+$dokka.location:entity/PatientData.MassUnit/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/values.html
+$dokka.location:entity/PatientData.TaxCode///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/index.html
+$dokka.location:entity/PatientData.TaxCode/TaxCode/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/-tax-code.html
+$dokka.location:entity/PatientData.TaxCode/code/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/code.html
+$dokka.location:entity/PatientData.TaxCode/equals/#kotlin.Any?/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/equals.html
+$dokka.location:entity/PatientData.TaxCode/hashCode/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/hash-code.html
+$dokka.location:entity/PatientData.Weight///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-weight/index.html
+$dokka.location:entity/PatientData.Weight/Weight/#kotlin.Double#entity.PatientData.MassUnit/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-weight/-weight.html
+$dokka.location:entity/PatientData.Weight/unit/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-weight/unit.html
+$dokka.location:entity/PatientData.Weight/value/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-weight/value.html
+$dokka.location:entity/PatientData///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/index.html
+$dokka.location:infrastructure.api.routes////PointingToDeclaration/patient-management-integration-microservice/infrastructure.api.routes/index.html
+$dokka.location:infrastructure.api.routes//patientAPI/io.ktor.server.routing.Route#application.controller.manager.PatientDatabaseManager/PointingToDeclaration/patient-management-integration-microservice/infrastructure.api.routes/patient-a-p-i.html
+$dokka.location:infrastructure.api////PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/index.html
+$dokka.location:infrastructure.api/ApiRouter.Companion///PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/-companion/index.html
+$dokka.location:infrastructure.api/ApiRouter.Companion/NETTY_PORT/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/-companion/-n-e-t-t-y_-p-o-r-t.html
+$dokka.location:infrastructure.api/ApiRouter///PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/index.html
+$dokka.location:infrastructure.api/ApiRouter/ApiRouter/#application.controller.manager.PatientDatabaseManager/PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/-api-router.html
+$dokka.location:infrastructure.api/ApiRouter/module/#io.ktor.server.application.Application/PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/module.html
+$dokka.location:infrastructure.api/ApiRouter/start/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.api/-api-router/start.html
+$dokka.location:infrastructure.database////PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/index.html
+$dokka.location:infrastructure.database/MongoClient.Companion///PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/-companion/index.html
+$dokka.location:infrastructure.database/MongoClient.Companion/databaseName/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/-companion/database-name.html
+$dokka.location:infrastructure.database/MongoClient///PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/index.html
+$dokka.location:infrastructure.database/MongoClient/MongoClient/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/-mongo-client.html
+$dokka.location:infrastructure.database/MongoClient/deletePatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/delete-patient.html
+$dokka.location:infrastructure.database/MongoClient/getPatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/get-patient.html
+$dokka.location:infrastructure.database/MongoClient/insertPatient/#entity.Patient/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/insert-patient.html
+$dokka.location:infrastructure.provider////PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/index.html
+$dokka.location:infrastructure.provider/Provider///PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/-provider/index.html
+$dokka.location:infrastructure.provider/Provider/patientDatabaseManager/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/-provider/patient-database-manager.html
+$dokka.location:infrastructure.provider/ProviderImpl///PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/-provider-impl/index.html
+$dokka.location:infrastructure.provider/ProviderImpl/ProviderImpl/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/-provider-impl/-provider-impl.html
+$dokka.location:infrastructure.provider/ProviderImpl/patientDatabaseManager/#/PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/-provider-impl/patient-database-manager.html
+$dokka.location:usecase.repository////PointingToDeclaration/patient-management-integration-microservice/usecase.repository/index.html
+$dokka.location:usecase.repository/PatientRepository///PointingToDeclaration/patient-management-integration-microservice/usecase.repository/-patient-repository/index.html
+$dokka.location:usecase.repository/PatientRepository/createPatient/#entity.Patient/PointingToDeclaration/patient-management-integration-microservice/usecase.repository/-patient-repository/create-patient.html
+$dokka.location:usecase.repository/PatientRepository/deletePatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/usecase.repository/-patient-repository/delete-patient.html
+$dokka.location:usecase.repository/PatientRepository/getPatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/usecase.repository/-patient-repository/get-patient.html
+application.controller
+application.controller.manager
+application.presenter.api.model
+application.service
+entity
+infrastructure.api
+infrastructure.api.routes
+infrastructure.database
+infrastructure.provider
+usecase.repository
+
