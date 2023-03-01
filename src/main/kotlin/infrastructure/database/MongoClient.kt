@@ -9,6 +9,7 @@
 package infrastructure.database
 
 import application.controller.manager.PatientDatabaseManager
+import com.mongodb.client.MongoDatabase
 import entity.Patient
 import entity.PatientData
 import org.litote.kmongo.KMongo
@@ -33,6 +34,9 @@ class MongoClient(
 
     private val patientsCollection =
         client.getDatabase(databaseName).getCollection<Patient>("patients")
+
+    /** Return a database given its [databaseName]. */
+    fun getDatabase(databaseName: String): MongoDatabase = client.getDatabase(databaseName)
 
     override fun insertPatient(patient: Patient): Boolean =
         patientsCollection.insertOne(patient).run {
