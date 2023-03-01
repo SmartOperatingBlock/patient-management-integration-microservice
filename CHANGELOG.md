@@ -1,3 +1,33 @@
+## [1.0.1](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.0...1.0.1) (2023-03-01)
+
+
+### Dependency updates
+
+* **deps:** add lib to test mongo ([ffb3022](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ffb3022aebc7360dc29623dc0453286f98525431))
+
+
+### Tests
+
+* **infrastructure:** add some mongodb tests ([e517535](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/e51753597f2e1157c7f6aa4e5ca98e1cd6964241))
+
+
+### General maintenance
+
+* add code documentation link to readme ([39eea01](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/39eea01b43b6bc55395a5087db680592510830f9))
+* add method to get database to mongo client ([9a4b28e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/9a4b28eeb8e0254935a603d329bc7aa47044e826))
+* change microservice name in README ([cd4cf00](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/cd4cf0005474f4e5d1efc41387021f2a18723a7b))
+* correct documentation links in readme ([55e1f7b](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/55e1f7b35e04bf08915de9e15e625af87e22d17c))
+
+
+### Documentation
+
+* **tests:** add documentation on mongo utility class ([c0ec33f](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/c0ec33f8eef2cdb9927ac38c2c24494dc3409a1f))
+
+
+### Refactoring
+
+* **test:** refactor mongodb tests ([5e71351](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5e71351332198f0d303a79f1ed160ff59d5448fa))
+
 ## 1.0.0 (2023-02-28)
 
 
