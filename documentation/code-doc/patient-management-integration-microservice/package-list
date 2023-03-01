@@ -105,6 +105,7 @@ $dokka.location:infrastructure.database/MongoClient.Companion/databaseName/#/Poi
 $dokka.location:infrastructure.database/MongoClient///PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/index.html
 $dokka.location:infrastructure.database/MongoClient/MongoClient/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/-mongo-client.html
 $dokka.location:infrastructure.database/MongoClient/deletePatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/delete-patient.html
+$dokka.location:infrastructure.database/MongoClient/getDatabase/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/get-database.html
 $dokka.location:infrastructure.database/MongoClient/getPatient/#entity.PatientData.TaxCode/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/get-patient.html
 $dokka.location:infrastructure.database/MongoClient/insertPatient/#entity.Patient/PointingToDeclaration/patient-management-integration-microservice/infrastructure.database/-mongo-client/insert-patient.html
 $dokka.location:infrastructure.provider////PointingToDeclaration/patient-management-integration-microservice/infrastructure.provider/index.html
