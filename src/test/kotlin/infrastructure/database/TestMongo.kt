@@ -16,24 +16,40 @@ import io.kotest.matchers.shouldNotBe
 
 class TestMongo : StringSpec({
 
-    "Test patient operations on mongo db" {
+    val mockPatient = Patient(
+        PatientData.TaxCode("1234567890"),
+        "John",
+        "Doe",
+        "1990-05-10",
+        PatientData.Height(180.5, PatientData.LengthUnit.CENTIMETER),
+        PatientData.Weight(75.2, PatientData.MassUnit.KILOGRAM),
+        PatientData.BloodGroup.A_POSITIVE
+    )
+
+    "Test patient creation on mongo db" {
         withMongo {
-            val mockPatient = Patient(
-                PatientData.TaxCode("1234567890"),
-                "John",
-                "Doe",
-                "1990-05-10",
-                PatientData.Height(180.5, PatientData.LengthUnit.CENTIMETER),
-                PatientData.Weight(75.2, PatientData.MassUnit.KILOGRAM),
-                PatientData.BloodGroup.A_POSITIVE
-            )
-
-            val mongoClient = MongoClient("mongodb://localhost:27017")
-
+            val mongoClient = MongoClient("mongodb://localhost:27017").also {
+                it.getDatabase(MongoClient.databaseName).drop()
+            }
             mongoClient.insertPatient(mockPatient) shouldBe true
+        }
+    }
 
+    "Test patient deletion on mongo db" {
+        withMongo {
+            val mongoClient = MongoClient("mongodb://localhost:27017").also {
+                it.getDatabase(MongoClient.databaseName).drop()
+            }
+            mongoClient.insertPatient(mockPatient)
             mongoClient.deletePatient(mockPatient.taxCode) shouldBe true
+        }
+    }
 
+    "Test patient retrieve on mongo db" {
+        withMongo {
+            val mongoClient = MongoClient("mongodb://localhost:27017").also {
+                it.getDatabase(MongoClient.databaseName).drop()
+            }
             mongoClient.insertPatient(mockPatient)
             mongoClient.getPatient(mockPatient.taxCode).also {
                 it shouldNotBe null
