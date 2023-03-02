@@ -17,12 +17,12 @@ import infrastructure.database.MongoClient
 class ProviderImpl : Provider {
 
     init {
-        checkNotNull(System.getenv("PATIENT_INFORMATION_MONGODB_URL")) {
+        checkNotNull(System.getenv("PATIENT_MANAGEMENT_MONGODB_URL")) {
             "Please provide a valid MongoDB connection String! "
         }
     }
 
     override val patientDatabaseManager: PatientDatabaseManager by lazy {
-        MongoClient(System.getenv("PATIENT_INFORMATION_MONGODB_URL"))
+        MongoClient(System.getenv("PATIENT_MANAGEMENT_MONGODB_URL"))
     }
 }
