@@ -50,7 +50,10 @@ fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
             if (result)
                 call.respond(HttpStatusCode.NoContent)
             else
-                call.respond(HttpStatusCode.NoContent)
+                call.respond(
+                    HttpStatusCode.NotFound,
+                    "Patient not found: " + call.parameters["taxCode"].toString()
+                )
         }
     }
 
