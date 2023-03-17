@@ -1,3 +1,33 @@
+## [1.0.2](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.1...1.0.2) (2023-03-17)
+
+
+### General maintenance
+
+* change patient management database name ([ba6c625](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ba6c62561c3546d0c423b44ab6fedc52f21a4eb4))
+* change response code in delete patient api ([16ff776](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/16ff776cccad7c692eb42bc0ef5c409fe0f91cb1))
+* update readme with sonarcloud badges and usage section ([60274e3](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/60274e3d57c8587ca10fed1e43d0bc9e516b30fe))
+
+
+### Build and continuous integration
+
+* run codecov only in linux runners ([2ba7e61](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/2ba7e61e587cbffc456010b9ead7f7287878051b))
+
+
+### Dependency updates
+
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.6 ([ba87299](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ba872999b9a0372f8766b5232406ccd633f832cd))
+* **deps:** update dependency gradle to v8.0.2 ([4b12941](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4b1294151baf991dc0f2a80645ba0abde9538015))
+* **deps:** update node.js to 18.15 ([b6891ff](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/b6891ffa97329b6ebb10047f4cc4a0b7809ef9e4))
+* **deps:** update plugin com.gradle.enterprise to v3.12.4 ([d4bd49c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d4bd49cc355f298c1b8ec0293d6dd8bb4eba9db6))
+* **deps:** update plugin kotlin-qa to v0.35.0 ([159d286](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/159d2863f27132dda3e428fe006abe7f4b82d2e4))
+* **deps:** update plugin kotlin-qa to v0.36.1 ([aa267d9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/aa267d98ce0e478880628afdf1ae79a0cca5a212))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.5 ([f3fd9fb](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f3fd9fb6ea5fa90769ba28c285382b4f15a9914f))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.10 ([26bb49c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/26bb49cc4fd87793c554d80c80ae34872f39ce26))
+
 ## [1.0.1](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.0...1.0.1) (2023-03-01)
 
 
