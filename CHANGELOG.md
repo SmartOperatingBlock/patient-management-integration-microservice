@@ -1,3 +1,29 @@
+## [1.0.4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.3...1.0.4) (2023-04-26)
+
+
+### Build and continuous integration
+
+* **deps:** update codecov/codecov-action action to v3.1.2 ([0730dc9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/0730dc9cbbf10cf9f83811c9f2dea9c2d7a0f703))
+* **deps:** update codecov/codecov-action action to v3.1.3 ([5e2e21a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5e2e21a97a3263795567b9e3de646e3bcc1ef5c4))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.8.21 ([d1feec4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d1feec456f4374e6a101ef161c5a54ecff82e8a7))
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.7 ([937ca9a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/937ca9a0aee8381b0bf84055c28c149aeb70f706))
+* **deps:** update dependency gradle to v8.1 ([37c0bad](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/37c0bade68a1ebe926b0ee93b477106f98dbb79f))
+* **deps:** update dependency gradle to v8.1.1 ([0ad0e1a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/0ad0e1a1ddcdaf4c45058496dbb8e6f2f0fdb82a))
+* **deps:** update dependency io.kotest:kotest-assertions-core to v5.6.1 ([1bf7a65](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/1bf7a65a31e9ab8cb31f2670f574495112db78e1))
+* **deps:** update dependency org.litote.kmongo:kmongo to v4.9.0 ([f29acda](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f29acdae2eb8dd7ab8d1d138e2616a217d691eed))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.24 ([7efdc88](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7efdc88d7f90d62f361c5b94b747ccc8d3669be9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.25 ([8d23372](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/8d23372b52b92f15f98d6c0ab0cf8a1a1ef9ec0a))
+* **deps:** update kotest to v5.6.0 ([5b31820](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5b31820810cdfc44e4a4d07ae14a73784b960779))
+* **deps:** update ktor to v2.3.0 ([f79978a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f79978a16bc9fb4172d81510010fd9d20f9fbe7c))
+* **deps:** update node.js to 18.16 ([853d5fb](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/853d5fb47be6ecb956f6b0ca7b86801dc803567c))
+* **deps:** update plugin com.gradle.enterprise to v3.13 ([bdfdec8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/bdfdec88aeab2ed74c2547086134e9e969833036))
+* **deps:** update plugin kotlin-qa to v0.37.0 ([76857e9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/76857e9fa8ebc3d0167fe2ba57e19c0eb688573b))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.6 ([600d1d0](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/600d1d0458c8e7133a21be01d2d07151e8729ee7))
+
 ## [1.0.3](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.2...1.0.3) (2023-04-05)
 
 
