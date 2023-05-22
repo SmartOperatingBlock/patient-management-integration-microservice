@@ -30,7 +30,7 @@ import io.ktor.server.routing.post
 /** The [Patient] API implementation. */
 fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
 
-    get("/api/patients/{taxCode}") {
+    get("/api/v1/patients/{taxCode}") {
         GetPatient(
             TaxCode(call.parameters["taxCode"].orEmpty()),
             PatientController(patientDatabaseManager)
@@ -42,7 +42,7 @@ fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
         }
     }
 
-    delete("/api/patients/{taxCode}") {
+    delete("/api/v1/patients/{taxCode}") {
         DeletePatient(
             TaxCode(call.parameters["taxCode"].orEmpty()),
             PatientController(patientDatabaseManager)
@@ -57,7 +57,7 @@ fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
         }
     }
 
-    post("api/patients") {
+    post("api/v1/patients") {
         val patient: Patient = call.receive<PatientApiDto>().toPatient()
         CreatePatient(
             patient,

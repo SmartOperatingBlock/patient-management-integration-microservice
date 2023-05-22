@@ -1,7 +1,7 @@
 openapi: 3.0.0
 servers:
   - description: Patient Management Integration microservice
-    url: http://localhost:<port>/api
+    url: http://localhost:<port>/api/v1
 info:
   description: This is the API of the Patient Management Integration microservice within the Smart Operating Block project.
   version: "1.0.0"
