@@ -1,3 +1,28 @@
+## [1.0.5](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.4...1.0.5) (2023-05-27)
+
+
+### Bug Fixes
+
+* add version number to api path ([40c07cc](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/40c07cc838c4b4598f1888c7623203b306e883e6))
+
+
+### Build and continuous integration
+
+* **deps:** update codecov/codecov-action action to v3.1.4 ([4ace5e7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4ace5e7de58a546f1a69a5f4a54e76e11315acaf))
+* **deps:** update smartoperatingblock/documentation-ghp-action action to v1.1.0 ([0b4af13](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/0b4af13745a43977c8a6f016d064942465074f3d))
+
+
+### Dependency updates
+
+* **deps:** update alpine docker tag to v3.18 ([fe009ce](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/fe009ce607f2a7f917b0af7fd759ee4aaae099be))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.6.3 ([db662ad](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/db662add75eb5e061dab77d66db443b2e16237a0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.26 ([df02df0](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/df02df0b1118d44670b1fb20cde6ab80edab994b))
+* **deps:** update kotest to v5.6.2 ([5a9ebb7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5a9ebb7e53e06b81e29bdaadf7a5c5252c9a6df4))
+* **deps:** update plugin com.gradle.enterprise to v3.13.1 ([3a1a595](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3a1a595efb229a7625b30a693faccfaeed3a6755))
+* **deps:** update plugin com.gradle.enterprise to v3.13.2 ([1d27d60](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/1d27d60027db870edc8d3412fcae9a9dec7f6376))
+* **deps:** update plugin com.gradle.enterprise to v3.13.3 ([0ebb135](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/0ebb13580d461bdf9a312c886138334cc1498e51))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.7 ([22c1b26](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/22c1b261f2f86ce5f33f001a62716bfa60301baf))
+
 ## [1.0.4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.3...1.0.4) (2023-04-26)
 
 
