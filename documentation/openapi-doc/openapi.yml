@@ -60,7 +60,7 @@ paths:
         '404':
           description: Patient not found
 
-  /api/users/:
+  /patients:
     post:
       tags:
         - Patient API
