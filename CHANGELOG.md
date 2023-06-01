@@ -1,3 +1,17 @@
+## [1.0.6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.5...1.0.6) (2023-06-01)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.27 ([cd8923c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/cd8923cb78bf5476cfbaa4fbfd55b5f55b2bba6d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.29 ([cf6f5a4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/cf6f5a4699d20fab5a068f8b7f142169629357f5))
+* **deps:** update ktor to v2.3.1 ([05664fe](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/05664fef300878f0c0651edd85d06638f7539d8a))
+
+
+### Documentation
+
+* update open api documentation ([3555153](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/35551539c24f843b9c7c999aa7c852b76ac85091))
+
 ## [1.0.5](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.4...1.0.5) (2023-05-27)
 
 
