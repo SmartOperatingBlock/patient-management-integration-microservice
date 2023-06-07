@@ -1,3 +1,17 @@
+## [1.0.7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.6...1.0.7) (2023-06-07)
+
+
+### Dependency updates
+
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.7.0 ([9902a05](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/9902a05fbff8d40e09e24c4f4994cad4fc305cbd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.30 ([4fb6859](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4fb68597c9d8282383a1bac24f9410160ce6f087))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([7407d22](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7407d22724fdb6df2dfc55ee9ac271e348a3f386))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.8.20 ([9927e89](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/9927e8989e7f4cc618d5445336ade390b4fe18fc))
+
 ## [1.0.6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.5...1.0.6) (2023-06-01)
 
 
