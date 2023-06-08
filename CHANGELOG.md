@@ -1,3 +1,15 @@
+## [1.0.8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.7...1.0.8) (2023-06-08)
+
+
+### General maintenance
+
+* make application service interface functional ([91158b1](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/91158b10e62da6c372e24278d265cb4d1c2b10c9))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.8.22 ([4938a6b](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4938a6b29c8e597b3cc59a233595d3918cddd82f))
+
 ## [1.0.7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.6...1.0.7) (2023-06-07)
 
 
