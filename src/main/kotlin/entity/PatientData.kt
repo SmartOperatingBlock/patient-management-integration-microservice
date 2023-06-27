@@ -58,7 +58,7 @@ object PatientData {
         ZERO_NEGATIVE,
         ZERO_POSITIVE,
         AB_NEGATIVE,
-        AB_POSITIVE
+        AB_POSITIVE,
     }
 
     /** The gender enum. */

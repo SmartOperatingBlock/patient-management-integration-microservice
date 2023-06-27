@@ -39,7 +39,7 @@ data class Patient(
     val weight: Weight,
 
     /** The [BloodGroup] of the patient. */
-    val bloodGroup: BloodGroup
+    val bloodGroup: BloodGroup,
 ) {
     init {
         check(taxCode.code.isNotEmpty()) {

@@ -18,7 +18,7 @@ import usecase.repository.PatientRepository
  * It contains the logic to access and update patients data.
  */
 class PatientController(
-    private val dbManager: PatientDatabaseManager
+    private val dbManager: PatientDatabaseManager,
 ) : PatientRepository {
 
     override fun createPatient(patient: Patient): Boolean = dbManager.insertPatient(patient)

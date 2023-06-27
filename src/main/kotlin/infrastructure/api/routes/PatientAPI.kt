@@ -29,15 +29,14 @@ import io.ktor.server.routing.post
 
 /** The [Patient] API implementation. */
 fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
-
     get("/api/v1/patients/{taxCode}") {
         GetPatient(
             TaxCode(call.parameters["taxCode"].orEmpty()),
-            PatientController(patientDatabaseManager)
+            PatientController(patientDatabaseManager),
         ).execute().apply {
-            if (this != null)
+            if (this != null) {
                 call.respond(HttpStatusCode.OK, this.toPatientApiDto())
-            else
+            } else
                 call.respond(HttpStatusCode.NotFound)
         }
     }
@@ -45,14 +44,14 @@ fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
     delete("/api/v1/patients/{taxCode}") {
         DeletePatient(
             TaxCode(call.parameters["taxCode"].orEmpty()),
-            PatientController(patientDatabaseManager)
+            PatientController(patientDatabaseManager),
         ).execute().let { result ->
-            if (result)
+            if (result) {
                 call.respond(HttpStatusCode.NoContent)
-            else
+            } else
                 call.respond(
                     HttpStatusCode.NotFound,
-                    "Patient not found: " + call.parameters["taxCode"].toString()
+                    "Patient not found: " + call.parameters["taxCode"].toString(),
                 )
         }
     }
@@ -61,11 +60,11 @@ fun Route.patientAPI(patientDatabaseManager: PatientDatabaseManager) {
         val patient: Patient = call.receive<PatientApiDto>().toPatient()
         CreatePatient(
             patient,
-            PatientController(patientDatabaseManager)
+            PatientController(patientDatabaseManager),
         ).execute().let { result ->
-            if (result)
+            if (result) {
                 call.respond(HttpStatusCode.Created)
-            else
+            } else
                 call.respond(HttpStatusCode.Conflict)
         }
     }
