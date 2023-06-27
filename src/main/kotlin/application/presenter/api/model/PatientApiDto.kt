@@ -31,7 +31,7 @@ data class PatientApiDto(
 
     val birthdate: String,
 
-    val bloodGroup: BloodGroup
+    val bloodGroup: BloodGroup,
 )
 
 /** Extension method to convert a [Patient] into its [PatientApiDto]. */
@@ -42,7 +42,7 @@ fun Patient.toPatientApiDto(): PatientApiDto = PatientApiDto(
     birthdate = this.birthdate,
     height = this.height.value,
     weight = this.weight.value,
-    bloodGroup = this.bloodGroup
+    bloodGroup = this.bloodGroup,
 )
 
 /** Extension method to convert a [PatientApiDto] into a [Patient]. */
@@ -53,5 +53,5 @@ fun PatientApiDto.toPatient(): Patient = Patient(
     birthdate = this.birthdate,
     height = PatientData.Height(this.height, PatientData.LengthUnit.CENTIMETER),
     weight = PatientData.Weight(this.weight, PatientData.MassUnit.KILOGRAM),
-    bloodGroup = this.bloodGroup
+    bloodGroup = this.bloodGroup,
 )

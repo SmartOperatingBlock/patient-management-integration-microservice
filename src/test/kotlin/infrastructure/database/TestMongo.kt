@@ -23,7 +23,7 @@ class TestMongo : StringSpec({
         "1990-05-10",
         PatientData.Height(180.5, PatientData.LengthUnit.CENTIMETER),
         PatientData.Weight(75.2, PatientData.MassUnit.KILOGRAM),
-        PatientData.BloodGroup.A_POSITIVE
+        PatientData.BloodGroup.A_POSITIVE,
     )
 
     "Test patient creation on mongo db" {

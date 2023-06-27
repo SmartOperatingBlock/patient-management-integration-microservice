@@ -21,7 +21,7 @@ import org.litote.kmongo.getCollection
 * The Mongo client.
 */
 class MongoClient(
-    connectionString: String
+    connectionString: String,
 ) : PatientDatabaseManager {
 
     init {
