@@ -1,3 +1,36 @@
+## [1.0.9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.8...1.0.9) (2023-07-07)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.0 ([ac5bf15](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ac5bf15b269094bcd865d630f171b7d7ac52cdcb))
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.8 ([f0283bf](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f0283bf2593b84d24d6b30b0ddbacdd288376524))
+* **deps:** update dependency gradle to v8.2 ([ff81575](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ff81575d3ce3c01234b952559e79dc1717567b93))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.33 ([262b7ab](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/262b7ab1946675abd5fbc5f6f3613d10bbf8acbf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.34 ([3f6f9be](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3f6f9be4e53da144e1f262a579cae1844e43e888))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([1ad55b6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/1ad55b66b6e1e2acb2d4f5229eb27fdd989379b6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([4b91758](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4b9175838fc28a32c170fc964e7a1666b095f4c1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([525f96a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/525f96a24ca6fa9416a60f59f4bb604ab44178e2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([5acf218](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/5acf218e4eda674f2be7e3bdd5159210712d06a3))
+* **deps:** update ktor to v2.3.2 ([2d50f64](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/2d50f64b83d30f871c9a698f973aa1b60f06fda7))
+* **deps:** update plugin com.gradle.enterprise to v3.13.4 ([096fc9e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/096fc9e2e2034eea4bf47bea501058badf09d56c))
+* **deps:** update plugin kotlin-qa to v0.46.0 ([7cda2c4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7cda2c434124c296172c1f6cb0cda83074d5d51c))
+* **deps:** update plugin kotlin-qa to v0.46.1 ([ac60ec8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ac60ec8be22ddb0818f4b90b623abc80278c4da0))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.8 ([c98159f](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/c98159fc97f8a4a320f08aca79832f5bc2ae0b84))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.9 ([8a5b94a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/8a5b94a2f4197144bcbd79b5f44144331c1a6b97))
+
+
+### Build and continuous integration
+
+* **deps:** update smartoperatingblock/release-and-delivery-action action to v1.0.1 ([17fe276](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/17fe2767799367d5d8cf7f1c1e43d07370042fcb))
+* **deps:** update smartoperatingblock/release-and-delivery-action action to v1.0.2 ([1379f7c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/1379f7c41c888ddcf1908a192902fb6254c60ced))
+* **deps:** update smartoperatingblock/release-and-delivery-action action to v1.0.3 ([4f2c5f2](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4f2c5f2ea6494c7b60ad5151f54cdab809e6c3d9))
+
+
+### Style improvements
+
+* format code due to kotlin-qa plugin update ([fc376b7](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/fc376b70e215f610e99725c8e483ebe31c70351b))
+
 ## [1.0.8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.7...1.0.8) (2023-06-08)
 
 
