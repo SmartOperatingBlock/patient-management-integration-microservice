@@ -1,3 +1,37 @@
+## [1.0.10](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.9...1.0.10) (2023-08-24)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.10 ([2ba6089](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/2ba60890195a4cf3e87971b457f01b4c356d128d))
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.10 ([92f3b45](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/92f3b458533de302d2b113f4d49cd3b49bd11e10))
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.11 ([44bd190](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/44bd19025fc60909564abbb7b445547c38df946d))
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.9 ([76f322e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/76f322e2d09b40d48d53652019cc1debb8ec485e))
+* **deps:** update dependency com.tngtech.archunit:archunit-junit5 to v1.1.0 ([67a5b73](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/67a5b7360b2b2b6c2b8ad3946ae23972d7692277))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.7.1 ([4c12b25](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4c12b252c5ea0f030b0d50a95e041ac247589c4c))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.7.2 ([df73fb5](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/df73fb53369ded03f1ecf5cd12868b37630dcbf6))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.8.0 ([411733d](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/411733d23323eadd91f4ae1729a3d347386331d3))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.8.1 ([3f9f3d3](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3f9f3d3c2751499c53ceb0358e6a87d3d23f2122))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.9.0 ([577b767](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/577b7672cf1dd84ab17b8570cb310d9b01aaed61))
+* **deps:** update dependency gradle to v8.2.1 ([dffd792](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/dffd79299f05934a6ceae37e9a2733bc3930db7f))
+* **deps:** update dependency gradle to v8.3 ([113bf03](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/113bf031b1d402ac2164754d8c4ef55979e4d852))
+* **deps:** update dependency org.litote.kmongo:kmongo to v4.10.0 ([2bcc4f9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/2bcc4f9ee76b33f69768e6eacabf64b53c6ef446))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([4e79aa6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4e79aa62c96f2de6264dd8f7303bfeafe6d9e161))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([6b1b650](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6b1b6507ae990650974d799bbf19f841eef646bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([6b79b31](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6b79b31cbc0d6891d52f85a01098fb0fd8daebae))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([059b5df](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/059b5df776ea96b5796cbc8f526be598a6d31a18))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([9743fa6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/9743fa63c82d666848d48c3bd193cec336ecbff5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([7b67bec](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7b67bec81c71637d9bb12fea58fdaf2f3b89a009))
+* **deps:** update ktor to v2.3.3 ([f7c5185](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/f7c51859aa96af10728d1d84d01d28253e8bb475))
+* **deps:** update node.js to 18.17 ([4435192](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/4435192143918f62435a673dbc27f0e00b33cfe1))
+* **deps:** update plugin com.gradle.enterprise to v3.14 ([21d3edb](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/21d3edb58238b918378e3f2a08a9d937db275d3d))
+* **deps:** update plugin com.gradle.enterprise to v3.14.1 ([3726712](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3726712867dbcecbd8d7e111cb839a83f2eed841))
+
+
+### Build and continuous integration
+
+* **deps:** update gradle/wrapper-validation-action action to v1.1.0 ([6f6a42e](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6f6a42e5005f8ead779359cbab1c42962cd8f2cc))
+
 ## [1.0.9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.8...1.0.9) (2023-07-07)
 
 
