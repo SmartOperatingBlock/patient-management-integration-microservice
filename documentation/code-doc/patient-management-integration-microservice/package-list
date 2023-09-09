@@ -59,11 +59,13 @@ $dokka.location:entity/PatientData.BloodGroup.B_POSITIVE///PointingToDeclaration
 $dokka.location:entity/PatientData.BloodGroup.ZERO_NEGATIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-z-e-r-o_-n-e-g-a-t-i-v-e/index.html
 $dokka.location:entity/PatientData.BloodGroup.ZERO_POSITIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-blood-group/-z-e-r-o_-p-o-s-i-t-i-v-e/index.html
 $dokka.location:entity/PatientData.BloodGroup///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/index.html
+$dokka.location:entity/PatientData.BloodGroup/entries/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/entries.html
 $dokka.location:entity/PatientData.BloodGroup/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/value-of.html
 $dokka.location:entity/PatientData.BloodGroup/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-blood-group/values.html
 $dokka.location:entity/PatientData.Gender.FEMALE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-gender/-f-e-m-a-l-e/index.html
 $dokka.location:entity/PatientData.Gender.MALE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-gender/-m-a-l-e/index.html
 $dokka.location:entity/PatientData.Gender///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/index.html
+$dokka.location:entity/PatientData.Gender/entries/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/entries.html
 $dokka.location:entity/PatientData.Gender/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/value-of.html
 $dokka.location:entity/PatientData.Gender/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-gender/values.html
 $dokka.location:entity/PatientData.Height///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-height/index.html
@@ -73,11 +75,13 @@ $dokka.location:entity/PatientData.Height/value/#/PointingToDeclaration/patient
 $dokka.location:entity/PatientData.LengthUnit.CENTIMETER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-length-unit/-c-e-n-t-i-m-e-t-e-r/index.html
 $dokka.location:entity/PatientData.LengthUnit.METER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-length-unit/-m-e-t-e-r/index.html
 $dokka.location:entity/PatientData.LengthUnit///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/index.html
+$dokka.location:entity/PatientData.LengthUnit/entries/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/entries.html
 $dokka.location:entity/PatientData.LengthUnit/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/value-of.html
 $dokka.location:entity/PatientData.LengthUnit/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-length-unit/values.html
 $dokka.location:entity/PatientData.MassUnit.GRAM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-mass-unit/-g-r-a-m/index.html
 $dokka.location:entity/PatientData.MassUnit.KILOGRAM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}patient-management-integration-microservice/entity/-patient-data/-mass-unit/-k-i-l-o-g-r-a-m/index.html
 $dokka.location:entity/PatientData.MassUnit///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/index.html
+$dokka.location:entity/PatientData.MassUnit/entries/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/entries.html
 $dokka.location:entity/PatientData.MassUnit/valueOf/#kotlin.String/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/value-of.html
 $dokka.location:entity/PatientData.MassUnit/values/#/PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-mass-unit/values.html
 $dokka.location:entity/PatientData.TaxCode///PointingToDeclaration/patient-management-integration-microservice/entity/-patient-data/-tax-code/index.html
