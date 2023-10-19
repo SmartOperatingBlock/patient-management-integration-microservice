@@ -1,3 +1,39 @@
+## [1.0.12](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.11...1.0.12) (2023-10-19)
+
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v8.4 ([6509df0](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6509df0abc97e40119f72971e7ac085abbe21222))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([57bd781](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/57bd7818af88b6325339c5ba402f87cde89db90e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([d2b8b71](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d2b8b71d511b6cf312c9884c110542f9010c80b2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([1a42d98](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/1a42d98d255b65bc360883239390dd4739f123ae))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([99d9d44](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/99d9d4499b787f05da66b953b9726579c47f69ba))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([e7a3e4a](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/e7a3e4a7cc75c149d50953430194bac962e2dd14))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([0871536](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/087153601b8943ee05f672587c1c795f22d15f6c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([62dec02](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/62dec020b2c78f61efd3eb0f438d3b7bf0c397ec))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([fd37fe5](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/fd37fe57319c089438e4796ade95e0a3b12986ed))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([ed2e108](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/ed2e10868799145bf7fba0c2bbfff0dfd40422f4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([785aef4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/785aef4fe3c004124b77993d1cfbad841271c193))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([02342e5](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/02342e5a79ae60f022d49ad02eb868a269cbeeb7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([6ad2cd8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6ad2cd866488591f4ee6e2f81cefe4a8824b8627))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([c5308a8](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/c5308a8ece7c951926c5cbf2bdf508281faa0c8a))
+* **deps:** update ktor to v2.3.5 ([236ef9d](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/236ef9de16411ff0ca2fc44ddc94c28073479555))
+* **deps:** update node.js to 18.18 ([a6ebfbc](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/a6ebfbc88e83f568bf141e246899e0c9461edbe6))
+* **deps:** update plugin com.gradle.enterprise to v3.15 ([33f96f9](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/33f96f9fe3fa2e42352be4cf458335f306a8199f))
+* **deps:** update plugin com.gradle.enterprise to v3.15.1 ([028d394](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/028d3944e4f680a5cd54d501100b8be1543ff39d))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.11 ([01113c4](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/01113c4a6e9dc29370e99e78c94cf0fe3da8affb))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.10 ([7a1fb19](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/7a1fb19ec54dd53fac9e5a628cec8cb3196f5c8b))
+
+
+### Build and continuous integration
+
+* **deps:** update smartoperatingblock/release-and-delivery-action action to v1.0.10 ([b94ff8c](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/b94ff8c7073aa33f1d3f3f36a8c2c3a1186280aa))
+* **deps:** update smartoperatingblock/release-and-delivery-action action to v1.0.6 ([74c085b](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/74c085ba3edb28044f0eb8cb29ef34c401491f0d))
+
 ## [1.0.11](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.10...1.0.11) (2023-09-09)
 
 
