@@ -1,3 +1,22 @@
+## [1.0.13](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.12...1.0.13) (2023-10-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v1.9.20 ([10b4a37](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/10b4a3723ec11135c3a38863602a59a0bdc71a93))
+* **deps:** update dependency de.flapdoodle.embed:de.flapdoodle.embed.mongo to v4.9.3 ([6a28383](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/6a28383ba347bf0f2b7eb8f5f223ef2407a432e7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([637672f](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/637672f994ce10cd73523a5e88bee3c6686f384b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([d53d0a6](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d53d0a60e59f8e750f223d20aa7fcf1975c818a1))
+* **deps:** update node.js to 20.9 ([0421014](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/042101478060e3629aa5a6f68a2e7015611cd0f0))
+* **deps:** update node.js to v20 ([d7d97fa](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/d7d97fa5678bae0f20f709af93f4ebeb80a87584))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.12 ([3505e4b](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3505e4b856824157f9268d6f55aea73dae895e38))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v1.1.13 ([3c8ad93](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/3c8ad933b959e6b2ced8dc892094d393cdac566e))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4 ([6638313](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/commit/66383134c66d78d4a4066319f6eb6ec8f13d1d46))
+
 ## [1.0.12](https://github.com/SmartOperatingBlock/patient-management-integration-microservice/compare/1.0.11...1.0.12) (2023-10-19)
 
 
