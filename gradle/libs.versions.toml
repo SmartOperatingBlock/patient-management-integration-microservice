@@ -5,7 +5,7 @@ ktor = "2.3.7"
 kmongo = "4.11.0"
 
 [libraries]
-archunit = { module = "com.tngtech.archunit:archunit-junit5", version = "1.2.1" }
+archunit = { module = "com.tngtech.archunit:archunit-junit5", version = "1.2.2" }
 embed-mongo = { module = "de.flapdoodle.embed:de.flapdoodle.embed.mongo", version = "4.12.2" }
 kmongo = { module = "org.litote.kmongo:kmongo", version.ref = "kmongo" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
